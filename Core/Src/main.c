@@ -104,7 +104,7 @@ int main(void)
   while (1)
   {
 //	  sprintf(&MSG[0], "Hello Dudes! Tracing X = %d\r\n", X);
-	       HAL_UART_Transmit(&huart2,(uint8_t *)'TEST', 6, HAL_MAX_DELAY);
+	       HAL_UART_Transmit(&huart2,(uint8_t *)"TEST", 6, HAL_MAX_DELAY);
 	       HAL_Delay(500);
 //	       X++;
     /* USER CODE END WHILE */
